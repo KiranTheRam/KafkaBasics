@@ -4,28 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7628e724-9ed9-42e5-b88d-dfde0fe650f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka-producer-wikimedia/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka-producer-wikimedia/src/main/java/io/conduktor/demos/kafka/wikimedia/WikimediaChangeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka-producer-wikimedia/src/main/java/io/conduktor/demos/kafka/wikimedia/WikimediaChangesProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafa-basics/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ConsumerDemoCooperative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ConsumerDemoWithShutdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ProducerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ProducerDemoKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ProducerDemoWithCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="7628e724-9ed9-42e5-b88d-dfde0fe650f9" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/Kafka-Streams-wikimedia/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Streams-wikimedia/src/main/java/io.conduktor.demos.wikimedia/WikimediaStreamsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Streams-wikimedia/src/main/java/io/conduktor/demos/processor/BotCountStreamBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Streams-wikimedia/src/main/java/io/conduktor/demos/processor/EventCountTimeseriesBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Streams-wikimedia/src/main/java/io/conduktor/demos/processor/WebsiteCountStreamBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-consumer-opensearch/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-consumer-opensearch/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-consumer-opensearch/src/main/java/io/conduktor/demos/OpenSearchConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/io/conduktor/demos/kafka/streams/wikimedia/WikimediaStreamsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka-producer-wikimedia/src/main/java/io/conduktor/demos/kafka/wikimedia/WikimediaChangesProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka-producer-wikimedia/src/main/java/io/conduktor/demos/kafka/wikimedia/WikimediaChangesProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +30,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Kafka" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,30 +72,26 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_opened_file_path": "/home/hina/IdeaProjects/Kafka/Kafka-Streams-wikimedia/src/main/java",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Kafka-Streams-wikimedia/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Kafka-Streams-wikimedia/src/main/java/io/conduktor/demos" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="demos.kafka" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WikimediaChangesProducer">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demos.kafka.ConsumerDemo" />
-      <module name="Kafka.kafa-basics.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demos.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OpenSearchConsumer">
     <configuration name="ConsumerDemoCooperative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demos.kafka.ConsumerDemoCooperative" />
       <module name="Kafka.kafa-basics.main" />
@@ -99,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demos.kafka.ProducerDemoKeys" />
-      <module name="Kafka.kafa-basics.main" />
+    <configuration name="OpenSearchConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.OpenSearchConsumer" />
+      <module name="Kafka.Kafka-consumer-opensearch.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demos.kafka.*" />
+          <option name="PATTERN" value="io.conduktor.demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,20 +144,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Kafka-consumer-opensearch: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="Kafka-consumer-opensearch/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.OpenSearchConsumer" />
       <item itemvalue="Application.ConsumerDemoCooperative" />
       <item itemvalue="Application.WikimediaChangesProducer" />
-      <item itemvalue="Application.ConsumerDemo" />
       <item itemvalue="Application.demos.kafka.ConsumerDemoWithShutdown" />
-      <item itemvalue="Application.ProducerDemoKeys" />
+      <item itemvalue="Docker.Kafka-consumer-opensearch: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OpenSearchConsumer" />
+        <item itemvalue="Docker.Kafka-consumer-opensearch: Compose Deployment" />
         <item itemvalue="Application.WikimediaChangesProducer" />
         <item itemvalue="Application.ConsumerDemoCooperative" />
         <item itemvalue="Application.demos.kafka.ConsumerDemoWithShutdown" />
-        <item itemvalue="Application.ProducerDemoKeys" />
-        <item itemvalue="Application.ConsumerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +179,19 @@
       <option name="presentableId" value="Default" />
       <updated>1656348191240</updated>
       <workItem from="1656348195393" duration="12675000" />
+      <workItem from="1656424767465" duration="398000" />
+      <workItem from="1656427143276" duration="4565000" />
+      <workItem from="1656434256961" duration="6244000" />
+      <workItem from="1656442950123" duration="200000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1656424923705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656424923706</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,5 +210,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>

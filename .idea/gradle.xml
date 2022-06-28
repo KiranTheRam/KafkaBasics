@@ -11,6 +11,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Kafka-Streams-wikimedia" />
+            <option value="$PROJECT_DIR$/Kafka-consumer-opensearch" />
             <option value="$PROJECT_DIR$/Kafka-producer-wikimedia" />
             <option value="$PROJECT_DIR$/kafa-basics" />
           </set>

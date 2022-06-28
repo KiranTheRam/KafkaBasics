@@ -1,4 +1,6 @@
 rootProject.name = 'Kafka'
 include 'kafa-basics'
 include 'Kafka-producer-wikimedia'
+include 'Kafka-consumer-opensearch'
+include 'Kafka-Streams-wikimedia'
 
