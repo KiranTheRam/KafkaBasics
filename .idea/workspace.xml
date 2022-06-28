@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7628e724-9ed9-42e5-b88d-dfde0fe650f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-producer-wikimedia/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-producer-wikimedia/src/main/java/io/conduktor/demos/kafka/wikimedia/WikimediaChangeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-producer-wikimedia/src/main/java/io/conduktor/demos/kafka/wikimedia/WikimediaChangesProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafa-basics/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ConsumerDemoCooperative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ConsumerDemoWithShutdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ProducerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ProducerDemoKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafa-basics/src/main/java/demos/kafka/ProducerDemoWithCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BAU42agSw5AzJDBVZUiS8dIftw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demos.kafka" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WikimediaChangesProducer">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demos.kafka.ConsumerDemo" />
+      <module name="Kafka.kafa-basics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demos.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoCooperative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demos.kafka.ConsumerDemoCooperative" />
+      <module name="Kafka.kafa-basics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demos.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demos.kafka.ProducerDemoKeys" />
+      <module name="Kafka.kafa-basics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demos.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WikimediaChangesProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.kafka.wikimedia.WikimediaChangesProducer" />
+      <module name="Kafka.Kafka-producer-wikimedia.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.conduktor.demos.kafka.wikimedia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demos.kafka.ConsumerDemoWithShutdown" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demos.kafka.ConsumerDemoWithShutdown" />
+      <module name="Kafka.kafa-basics.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demos.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConsumerDemoCooperative" />
+      <item itemvalue="Application.WikimediaChangesProducer" />
+      <item itemvalue="Application.ConsumerDemo" />
+      <item itemvalue="Application.demos.kafka.ConsumerDemoWithShutdown" />
+      <item itemvalue="Application.ProducerDemoKeys" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WikimediaChangesProducer" />
+        <item itemvalue="Application.ConsumerDemoCooperative" />
+        <item itemvalue="Application.demos.kafka.ConsumerDemoWithShutdown" />
+        <item itemvalue="Application.ProducerDemoKeys" />
+        <item itemvalue="Application.ConsumerDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7628e724-9ed9-42e5-b88d-dfde0fe650f9" name="Changes" comment="" />
+      <created>1656348191240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656348191240</updated>
+      <workItem from="1656348195393" duration="12675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
